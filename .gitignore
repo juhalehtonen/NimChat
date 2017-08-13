@@ -1,3 +1,4 @@
 ### Nim ###
 nimcache/
 *.exe
+*.zip
