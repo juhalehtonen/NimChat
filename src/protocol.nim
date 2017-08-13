@@ -52,5 +52,4 @@ when isMainModule:
   block:
     let expected = """{"username": "dom", "message": "hello"}""" & "\c\1"
     doAssert createMessage("dom", "hello") == expected
-# An ideal way for the parseMessage proc to report errors would be by raising a custom
-# exception. But this is beyond the scope of this chapter.
+# TODO: An ideal way for the parseMessage proc to report errors would be by raising a custom exception.
